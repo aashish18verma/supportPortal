@@ -1,0 +1,28 @@
+jwt:
+  secret: F!r9}u%FB(nzmM(]_c]j"F7e[:<`,FRPHN_5`rS{?_[rdm,[9J]bqK[9nf)GBa'c
+
+
+server:
+  port: 8081
+#  error:
+#    whitelabel:
+#      enabled: false
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testnew
+    username: root
+    password: root
+    driverClassname: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+    open-in-view: false
+
+
+#  mvc:
+#    throw-exception-if-no-handler-found: true
+#  resources:
+#    add-mappings: false
